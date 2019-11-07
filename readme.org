@@ -1,0 +1,26 @@
+* LUGStreamer
+
+** What?
+
+It streams our Linux User Group to the internet (currently via Youtube).
+
+** Why?
+
+We wanted a solution which has an external MIC and flexibility (local store, 
+picture in picture) mixed with simplicity allowing us to hit a single button
+to get the stream happening at our LUG.
+
+** How?
+
+Hook a Raspberry PI up with a camera, button, LED and use a bit of ffmpeg magic
+to get it all together.
+
+** Next
+
+What's next
+- Use the HDMI device to capture the personals stream to the TV and stream that.
+  The device in question outputs MJPEG so that would need to be converted to work
+  in youtube.
+- Add Picture in Picture
+- Lower the bandwidth
+- Fix the latency in audio
